@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  body: 0; }
+
+header {
+  background-color: #F5F5F5;
+  margin-top: 0;
+  border-bottom: solid 1px #E5E5E5;
+  max-height: 55px; }
+  header .topGit {
+    width: 30px;
+    margin-left: 12%;
+    position: relative;
+    top: -15px; }
+  header #name {
+    width: 25%;
+    max-height: 30px;
+    margin-left: 15%;
+    padding-top: 1%;
+    position: relative;
+    top: 15px; }
+  header .headerNav ul {
+    margin-left: 38%;
+    margin-top: -42px; }
+  header .headerNav li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 1.5%; }
+  header .socialNav li {
+    display: inline-block;
+    text-decoration: none;
+    width: 30px; }
+    header .socialNav li img {
+      width: 20px; }
+  header .socialNav ul {
+    margin-left: 76%;
+    position: relative;
+    top: -37px; }
+
+.wrapper {
+  width: 100%; }
+  .wrapper .leftCol {
+    width: 30%; }
+    .wrapper .leftCol ul {
+      margin-bottom: none; }
+    .wrapper .leftCol li {
+      list-style-type: none; }
+    .wrapper .leftCol .div2 {
+      border-bottom: solid 1px #EEEEEE;
+      margin-left: 40%;
+      text-decoration: none;
+      max-height: 70px; }
+    .wrapper .leftCol .profilePic {
+      width: 225px;
+      margin-top: 5%;
+      margin-left: 40%; }
+    .wrapper .leftCol h2 {
+      font-size: 1.75em;
+      margin-left: 40%;
+      margin-top: -.5%; }
+    .wrapper .leftCol h3 {
+      margin-left: 40%;
+      margin-top: -5%;
+      padding-bottom: 3%;
+      color: #666666;
+      font-weight: lighter;
+      border-bottom: solid 1px #EEEEEE; }
+    .wrapper .leftCol img {
+      width: 15px;
+      margin-left: -22%; }
+    .wrapper .leftCol p {
+      margin: 0;
+      position: relative;
+      top: -57px;
+      left: 9%; }
+    .wrapper .leftCol .div3 {
+      margin-left: 40%;
+      margin-top: -3%;
+      border-bottom: solid 1px #EEEEEE;
+      width: 60%; }
+      .wrapper .leftCol .div3 h1 {
+        margin: 0 auto; }
+    .wrapper .leftCol .div3 ul {
+      padding-left: 5%; }
+    .wrapper .leftCol .div3 li {
+      display: inline-block;
+      padding: 0 10%;
+      font-size: 1.5em;
+      color: #3D76C2; }
+    .wrapper .leftCol .div3 h5 {
+      display: inline;
+      font-size: .1em; }

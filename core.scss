@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  body: 0;
+}
+
+header {
+  background-color: #F5F5F5;
+  margin-top: 0;
+  border-bottom: solid 1px #E5E5E5;
+  max-height: 55px;
+  .topGit {
+    width: 30px;
+    margin-left: 12%;
+    position: relative;
+    top: -15px;
+  }
+  #name {
+    width: 25%;
+    max-height: 30px;
+    margin-left: 15%;
+    padding-top: 1%;
+    position: relative;
+    top: 15px;
+  }
+  .headerNav ul {
+    margin-left: 38%;
+    margin-top: -42px;
+  }
+  .headerNav li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 1.5%;
+  }
+  .socialNav li {
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    img {
+      width: 20px;
+    }
+  }
+  .socialNav ul {
+    margin-left: 76%;
+    position: relative;
+    top: -37px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  .leftCol {
+    width: 30%;
+    ul {
+      margin-bottom: none;
+    }
+    li {
+      list-style-type: none;
+    }
+    .div2 {
+      border-bottom: solid 1px #EEEEEE;
+      margin-left: 40%;
+      text-decoration: none;
+      max-height: 70px;
+    }
+    .profilePic {
+      width: 225px;
+      margin-top: 5%;
+      margin-left: 40%;
+    }
+    h2 {
+      font-size: 1.75em;
+      margin-left: 40%;
+      margin-top: -.5%;
+    }
+    h3 {
+      margin-left: 40%;
+      margin-top: -5%;
+      padding-bottom: 3%;
+      color: #666666;
+      font-weight: lighter;
+      border-bottom: solid 1px #EEEEEE;
+    }
+    img {
+      width: 15px;
+      margin-left: -22%;
+    }
+
+    p {
+      margin: 0;
+      position: relative;
+      top: -57px;
+      left: 9%;
+    }
+    .div3 {
+      margin-left: 40%;
+      margin-top: -3%;
+      border-bottom: solid 1px #EEEEEE;
+      width: 60%;
+      h1 {
+        margin: 0 auto;
+      }
+
+    }
+    .div3 ul {
+      padding-left: 5%;
+    }
+    .div3 li {
+      display: inline-block;
+      padding: 0 10%;
+      font-size: 1.5em;
+      color: #3D76C2;
+    }
+    .div3 h5 {
+      display: inline;
+      font-size: .1em;
+    }
+
+  }
+}
