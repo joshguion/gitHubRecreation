@@ -48,6 +48,9 @@ header {
 
 .wrapper {
   width: 100%;
+  .leftCol, .rightCol {
+    display: inline-block;
+  }
   .leftCol {
     width: 30%;
     ul {
@@ -62,24 +65,20 @@ header {
       text-decoration: none;
       max-height: 70px;
     }
-    .profilePic {
-      width: 225px;
-      margin-top: 5%;
-      margin-left: 40%;
-    }
+
     h2 {
       font-size: 1.75em;
       margin-left: 40%;
       margin-top: -.5%;
     }
-    h3 {
-      margin-left: 40%;
-      margin-top: -5%;
-      padding-bottom: 3%;
-      color: #666666;
-      font-weight: lighter;
-      border-bottom: solid 1px #EEEEEE;
-    }
+    &>  h3 {
+        margin-left: 40%;
+        margin-top: -5%;
+        padding-bottom: 3%;
+        color: #666666;
+        font-weight: lighter;
+        border-bottom: solid 1px #EEEEEE;
+      }
     img {
       width: 15px;
       margin-left: -22%;
@@ -98,22 +97,129 @@ header {
       width: 60%;
       h1 {
         margin: 0 auto;
+        font-size: 1.25em;
       }
 
     }
     .div3 ul {
-      padding-left: 5%;
+      margin-bottom: 0;
+      padding-left: 0;
     }
     .div3 li {
       display: inline-block;
-      padding: 0 10%;
+      padding: 0 12%;
       font-size: 1.5em;
       color: #3D76C2;
     }
     .div3 h5 {
       display: inline;
+
       font-size: .1em;
+      padding:0 8%;
+      color: #7D7D7D;
+      font-weight: lighter;
+    }
+    .organizations {
+      width: 60%;
+      margin-left: 40%;
+      img {
+        width: 50px;
+        margin-left: 1%;
+      }
     }
 
   }
+  .rightCol {
+    width: 60%;
+    vertical-align: top;
+    .tabsDiv {
+      width: 100%;
+      border-bottom: solid 1px #EEEEEE;
+      height: 50px;
+    }
+    .tabs li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 2%;
+      position: relative;
+      img {
+        width: 15px;
+        display: inline-block;
+        position: relative;
+        left: -25%;
+      }
+      h4 {
+        color: #666;
+        font-weight: lighter;
+        position: relative;
+        top: -40px;
+      }
+      a {
+        text-decoration: none;
+        &:link, &:visited {
+          color: #666;
+        }
+      }
+    }
+    button {
+      position: relative;
+      left: 85%;
+      top: -110px;
+    }
+  }
+
+}
+
+footer {
+  width: 75%;
+  margin-left: 12%;
+  border-top: solid 1px #EEEEEE;
+  img {
+    width: 25px;
+    position: relative;
+    left: 49%;
+    bottom: 40px;
+  }
+  h6 {
+    display: block;
+    color: #767676;
+    font-weight: lighter;
+  }
+  .copyRight {
+    width:15%;
+    margin-right: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    font-size: .75em;
+  }
+  .footerNavLeft {
+    margin-left: 7%;
+    margin-top: -4.25%;
+    li {
+      padding-right: 2%;
+      color: #4078c0;
+    }
+  }
+  .footerNavRight {
+    width: 50%;
+    margin-left: 64%;
+    margin-top: -8.15%;
+    ul {
+      padding-left: 0%;
+    }
+    li {
+      padding-left: 3%;
+      color: #4078c0;
+    }
+  }
+}
+#profilePic img {
+  width: 225px;
+  margin-top: 5%;
+  margin-left: 40%;
+  border-radius: 5px;
 }

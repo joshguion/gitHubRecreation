@@ -39,6 +39,8 @@ header {
 
 .wrapper {
   width: 100%; }
+  .wrapper .leftCol, .wrapper .rightCol {
+    display: inline-block; }
   .wrapper .leftCol {
     width: 30%; }
     .wrapper .leftCol ul {
@@ -50,15 +52,11 @@ header {
       margin-left: 40%;
       text-decoration: none;
       max-height: 70px; }
-    .wrapper .leftCol .profilePic {
-      width: 225px;
-      margin-top: 5%;
-      margin-left: 40%; }
     .wrapper .leftCol h2 {
       font-size: 1.75em;
       margin-left: 40%;
       margin-top: -.5%; }
-    .wrapper .leftCol h3 {
+    .wrapper .leftCol > h3 {
       margin-left: 40%;
       margin-top: -5%;
       padding-bottom: 3%;
@@ -79,14 +77,98 @@ header {
       border-bottom: solid 1px #EEEEEE;
       width: 60%; }
       .wrapper .leftCol .div3 h1 {
-        margin: 0 auto; }
+        margin: 0 auto;
+        font-size: 1.25em; }
     .wrapper .leftCol .div3 ul {
-      padding-left: 5%; }
+      margin-bottom: 0;
+      padding-left: 0; }
     .wrapper .leftCol .div3 li {
       display: inline-block;
-      padding: 0 10%;
+      padding: 0 12%;
       font-size: 1.5em;
       color: #3D76C2; }
     .wrapper .leftCol .div3 h5 {
       display: inline;
-      font-size: .1em; }
+      font-size: .1em;
+      padding: 0 8%;
+      color: #7D7D7D;
+      font-weight: lighter; }
+    .wrapper .leftCol .organizations {
+      width: 60%;
+      margin-left: 40%; }
+      .wrapper .leftCol .organizations img {
+        width: 50px;
+        margin-left: 1%; }
+  .wrapper .rightCol {
+    width: 60%;
+    vertical-align: top; }
+    .wrapper .rightCol .tabsDiv {
+      width: 100%;
+      border-bottom: solid 1px #EEEEEE;
+      height: 50px; }
+    .wrapper .rightCol .tabs li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 2%;
+      position: relative; }
+      .wrapper .rightCol .tabs li img {
+        width: 15px;
+        display: inline-block;
+        position: relative;
+        left: -25%; }
+      .wrapper .rightCol .tabs li h4 {
+        color: #666;
+        font-weight: lighter;
+        position: relative;
+        top: -40px; }
+      .wrapper .rightCol .tabs li a {
+        text-decoration: none; }
+        .wrapper .rightCol .tabs li a:link, .wrapper .rightCol .tabs li a:visited {
+          color: #666; }
+    .wrapper .rightCol button {
+      position: relative;
+      left: 85%;
+      top: -110px; }
+
+footer {
+  width: 75%;
+  margin-left: 12%;
+  border-top: solid 1px #EEEEEE; }
+  footer img {
+    width: 25px;
+    position: relative;
+    left: 49%;
+    bottom: 40px; }
+  footer h6 {
+    display: block;
+    color: #767676;
+    font-weight: lighter; }
+  footer .copyRight {
+    width: 15%;
+    margin-right: 0; }
+  footer ul {
+    list-style-type: none; }
+  footer li {
+    display: inline-block;
+    font-size: .75em; }
+  footer .footerNavLeft {
+    margin-left: 7%;
+    margin-top: -4.25%; }
+    footer .footerNavLeft li {
+      padding-right: 2%;
+      color: #4078c0; }
+  footer .footerNavRight {
+    width: 50%;
+    margin-left: 64%;
+    margin-top: -8.15%; }
+    footer .footerNavRight ul {
+      padding-left: 0%; }
+    footer .footerNavRight li {
+      padding-left: 3%;
+      color: #4078c0; }
+
+#profilePic img {
+  width: 225px;
+  margin-top: 5%;
+  margin-left: 40%;
+  border-radius: 5px; }

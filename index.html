@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
     <title>Git Recreation</title>
   </head>
@@ -29,37 +30,87 @@
     </header>
     <section class="wrapper">
       <div class="leftCol">
-        <img src="images/profilePic.png" class="profilePic" alt="" />
-        <h2>Josh Guion</h2>
-        <h3>joshguion</h3>
+        <div id="profilePic"></div>
+        <h2 class="name">Josh Guion</h2>
+        <h3 class="login">joshguion</h3>
         <div class="div2">
           <ul>
             <li><img src="images/pinDrop.png" class="pinDrop"alt="" /></li>
             <li><img src="images/clock.png" class="clock"alt="" /></li>
           </ul>
-          <p>Charleston, SC</p>
+          <p class="location">Charleston, SC</p>
           <p class="joinedOn">Joined on Sep 29, 2015</p>
         </div>
         <div class="div3">
           <ul>
-            <li><h1>3</h1></li>
-            <li><h1>0</h1></li>
-            <li><h1>3</h1></li>
+            <li><h1 class ="followers">3</h1></li>
+            <li><h1 class="starred">0</h1></li>
+            <li><h1 class="following">3</h1></li>
           </ul>
-          <ul>
-            <li><h5>Followers</h5></li>
-            <li><h5>Starred</h5></li>
-            <li><h5>Following</h5></li>
-          </ul>
+          <h5>Followers</h5>
+          <h5>Starred</h5>
+          <h5>Following</h5>
+        </div>
+        <div class="organizations">
+          <h3>Organizations</h3>
+          <img src="images/TIYlogo.png" alt="" />
         </div>
       </div>
       <div class="rightCol">
+        <div class="tabsDiv">
+          <nav class="tabs">
+            <ul>
+              <li id="contTab"><img src="images/plus.png" alt="" /><h4><a href="#">Contributions</a></h4></li>
+              <li id="repoTab"><img src="images/book.png" alt="" /><h4><a href="#">Repositories</a></h4></li>
+              <li id="pubTab"><img src="images/publicActivity.png" alt="" /><h4><a href="#">Public activity</a></h4></li>
+              <div class="contInfo">
 
+              </div>
+              <div class="repoInfo">
+
+              </div>
+              <div class="pubInfo">
+
+              </div>
+            </ul>
+          </nav>
+          <button name="button">Edit profile</button>
+        </div>
+        <div class="repo">
+
+        </div>
       </div>
+
     </section>
     <footer>
-      <h3>Git logo placeholder</h3>
+      <div class="copyRight">
+        <h6>&copy;2015 GitHub, Inc.</h6>
+      </div>
+      <nav class="footerNavLeft">
+        <ul>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Security</li>
+          <li>Contact</li>
+          <li>Help</li>
+        </ul>
+      </nav>
+      <img src="images/bottomGitLogo.png" alt="" />
+      <nav class="footerNavRight">
+        <ul>
+          <li>Status</li>
+          <li>API</li>
+          <li>Training</li>
+          <li>Shop</li>
+          <li>Blog</li>
+          <li>About</li>
+          <li>Pricing</li>
+        </ul>
+      </nav>
     </footer>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="info.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
