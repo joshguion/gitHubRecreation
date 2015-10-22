@@ -172,3 +172,33 @@ footer {
   margin-top: 5%;
   margin-left: 40%;
   border-radius: 5px; }
+
+.repoDiv {
+  border-bottom: solid 1px #EEEEEE; }
+
+.repoName {
+  color: #3D76C2;
+  font-size: 1.25em;
+  font-weight: bold; }
+
+.repoUpdatedAt {
+  color: #888888; }
+
+.repoLanguage {
+  color: #888888;
+  font-size: .75em;
+  margin-left: 85%; }
+
+.repoStargazers {
+  color: #888888;
+  font-size: .75em;
+  position: relative;
+  left: 95%;
+  top: -18px; }
+
+.repoForks {
+  color: #888888;
+  font-size: .75em;
+  position: relative;
+  left: 95%;
+  top: -18px; }

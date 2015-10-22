@@ -12,11 +12,11 @@ $('.following').text(user.following);
 
 var filteredRepo = "";
 var coreRepo = _.each(repo, function(item){
- filteredRepo += item.name
- + item.updated_at + '<br>'
- + item.language + '<br>'
- + item.stargazers_count + '<br>'
- + item.forks + '<br>';
+ filteredRepo += '<div class="repoDiv">' + '<span class="repoName">' + item.name + '</span>'
+ + '<span class="repoUpdatedAt">' + item.updated_at + '</span>' + '<br>'
+ + '<span class="repoLanguage">' + item.language + '</span>' + '<br>'
+ + '<span class="repoStargazers">' + item.stargazers_count + '</span>'+ '<br>'
+ + '<span class="repoForks">' + item.forks + '</span>'+ '</div>';
 });
 
 $('.repo').append(filteredRepo);
